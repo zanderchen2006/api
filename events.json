@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Apple Special Event",
+      "date": "2023-09-12",
+      "location": "Apple Park, Cupertino, CA",
+      "highlights": [
+        "Einführung des iPhone 15",
+        "Neue Apple Watch Series 9",
+        "Updates für iOS 17"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "WWDC 2023",
+      "date": "2023-06-05",
+      "location": "Online",
+      "highlights": [
+        "Neues macOS Sonoma",
+        "Updates für SwiftUI",
+        "Einführung von Vision Pro"
+      ]
+    }
+  ]
+}
