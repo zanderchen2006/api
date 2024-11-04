@@ -1,0 +1,36 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Apple Music",
+      "description": "Streamingdienst für Musik mit Millionen von Songs.",
+      "monthlyPrice": 9.99,
+      "availableRegions": [
+        "Deutschland",
+        "Österreich",
+        "Schweiz"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "iCloud",
+      "description": "Cloud-Speicher für Daten und Backups.",
+      "monthlyPrice": 0.99,
+      "availableRegions": [
+        "Weltweit"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Apple TV+",
+      "description": "Streamingdienst für Original-Filme und -Serien.",
+      "monthlyPrice": 4.99,
+      "availableRegions": [
+        "Deutschland",
+        "Österreich",
+        "Schweiz",
+        "USA"
+      ]
+    }
+  ]
+}
