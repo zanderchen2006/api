@@ -1,0 +1,73 @@
+{
+  "api": {
+    "version": "1.0",
+    "baseUrl": "https://api.example.com/books",
+    "endpoints": {
+      "getAllBooks": {
+        "method": "GET",
+        "url": "/",
+        "description": "Ruft eine Liste aller Bücher ab.",
+        "response": [
+          {
+            "id": 1,
+            "title": "Der Prozess",
+            "author": "Franz Kafka",
+            "publishedYear": 1925
+          },
+          {
+            "id": 2,
+            "title": "1984",
+            "author": "George Orwell",
+            "publishedYear": 1949
+          }
+        ]
+      },
+      "getBook": {
+        "method": "GET",
+        "url": "/{id}",
+        "description": "Ruft ein einzelnes Buch basierend auf der ID ab.",
+        "response": {
+          "id": 1,
+          "title": "Der Prozess",
+          "author": "Franz Kafka",
+          "publishedYear": 1925
+        }
+      },
+      "addBook": {
+        "method": "POST",
+        "url": "/",
+        "description": "Fügt ein neues Buch hinzu.",
+        "request": {
+          "title": "Neues Buch",
+          "author": "Neuer Autor",
+          "publishedYear": 2024
+        },
+        "response": {
+          "message": "Buch erfolgreich hinzugefügt.",
+          "bookId": 3
+        }
+      },
+      "updateBook": {
+        "method": "PUT",
+        "url": "/{id}",
+        "description": "Aktualisiert ein bestehendes Buch basierend auf der ID.",
+        "request": {
+          "title": "Aktualisiertes Buch",
+          "author": "Aktualisierter Autor",
+          "publishedYear": 2025
+        },
+        "response": {
+          "message": "Buch erfolgreich aktualisiert."
+        }
+      },
+      "deleteBook": {
+        "method": "DELETE",
+        "url": "/{id}",
+        "description": "Löscht ein Buch basierend auf der ID.",
+        "response": {
+          "message": "Buch erfolgreich gelöscht."
+        }
+      }
+    }
+  }
+}
