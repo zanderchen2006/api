@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "category": "Smartphone",
+      "price": 799,
+      "features": [
+        "6.1 Zoll Super Retina XDR Display",
+        "A15 Bionic Chip",
+        "Dual-Kamera-System"
+      ],
+      "releaseDate": "2022-09-16"
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air M2",
+      "category": "Laptop",
+      "price": 999,
+      "features": [
+        "M2 Chip",
+        "13.6 Zoll Retina Display",
+        "bis zu 18 Stunden Batterielaufzeit"
+      ],
+      "releaseDate": "2022-07-15"
+    },
+    {
+      "id": 3,
+      "name": "iPad Pro",
+      "category": "Tablet",
+      "price": 1099,
+      "features": [
+        "12.9 Zoll Liquid Retina XDR Display",
+        "M1 Chip",
+        "Unterstützung für Apple Pencil"
+      ],
+      "releaseDate": "2021-04-30"
+    }
+  ]
+}
